@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageType>Template</PackageType>
+    <PackageVersion>1.0.1</PackageVersion>
+    <PackageId>SourceGenerator.Templates.CSharp</PackageId>
+    <Title>Source generator template for csharp</Title>
+    <Authors>Bill Chung</Authors>
+    <Description>A project for creating a source generator library that targets .NET Standard 2.0</Description>
+    <PackageTags>dotnet-new;templates;roslyn;sourcegenerator</PackageTags>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+    <NoDefaultExcludes>true</NoDefaultExcludes>
+    <NoWarn>$(NoWarn);NU5128</NoWarn>
+    <Copyright>Copyright © 2025 Bill Chung</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="content/**/*" Exclude="content/**/bin/**;content/**/obj/**" />
+    <Compile Remove="**/*" />
+  </ItemGroup>
+</Project>

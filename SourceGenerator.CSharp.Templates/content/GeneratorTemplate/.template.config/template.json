@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Bill Chung",
+  "classifications": [ "Roslyn", "Source Generator", "Library" ],
+  "identity": "SourceGenerator.Template.CSharp",
+  "name": "Source generator template for csharp",
+  "description": "A project for creating a source generator library that targets .NET Standard 2.0",
+  "shortName": "srcgenerator",
+  "groupIdentity": "BaYStudioTemplate",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "SourceGeneratorTemplate",
+  "preferNameDirectory": true,
+  "symbols": {
+  }
+}
