@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageType>Template</PackageType>
-    <PackageVersion>1.0.1</PackageVersion>
+    <PackageVersion>1.0.2</PackageVersion>
     <PackageId>SourceGenerator.Templates.CSharp</PackageId>
     <Title>Source generator template for csharp</Title>
     <Authors>Bill Chung</Authors>
