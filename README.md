@@ -1,5 +1,4 @@
 # SourceGenerator.CSharp.Templates
-# SourceGenerator.CSharp.Templates
 
 A `dotnet new` project template for C# Source Generator development — skip the boilerplate, start writing your generator immediately.
 
